@@ -10,6 +10,7 @@ collections:
     folder: "content/home"
     create: true
     slug: "{{slug}}"
+    preview_path: blog/
     fields:
       - label: "Layout"
         name: "layout"
@@ -70,6 +71,7 @@ collections:
     folder: "content/city"
     create: true
     slug: "{{slug}}"
+    preview_path: testcity/
     fields:
       - label: "Layout"
         name: "layout"
