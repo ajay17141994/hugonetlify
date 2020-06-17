@@ -10,7 +10,6 @@ collections:
     folder: "content/home"
     create: true
     slug: "{{slug}}"
-    preview_path: blog/
     fields:
       - label: "Layout"
         name: "layout"
@@ -46,6 +45,10 @@ collections:
         name: "categories"
         widget: "hidden"
         default: "Product Listing"
+      - label: "City/Sub Locality Name"
+        name: "title"
+        widget: "hidden"
+        default: "home"
       - label: "Page Heading(part 1 eg.Gold Loan in City_Name)"
         name: "heading_one"
         widget: "string"
@@ -71,7 +74,6 @@ collections:
     folder: "content/city"
     create: true
     slug: "{{slug}}"
-    preview_path: testcity/
     fields:
       - label: "Layout"
         name: "layout"
