@@ -7,7 +7,7 @@ media_folder: "images/uploads"
 collections:
   - label: "Home Page"
     name: "product_listingHomepage"
-    folder: "content/home"
+    folder: "content"
     create: true
     slug: "{{slug}}"
     fields:
@@ -48,7 +48,7 @@ collections:
       - label: "City/Sub Locality Name"
         name: "title"
         widget: "hidden"
-        default: "home"
+        default: "index"
       - label: "Page Heading(part 1 eg.Gold Loan in City_Name)"
         name: "heading_one"
         widget: "string"
