@@ -1,6 +1,6 @@
 ---
 layout: post
-titleTag: HOME PAGE
+titleTag: OME PAGE
 postType: sublocality
 cononical: dummy
 meta_description: META DATA
