@@ -22,7 +22,7 @@ description: Lorem Ipsum is simply dummy text of the printing and typesetting
   Ipsum passages, and more recently with desktop publishing software like Aldus
   PageMaker including versions of Lorem Ipsum.
 sub_footerData: >-
-  Having been home to different kingdoms and empires throughout its history,
+  Having been home to different kingdoms and empires throughoutits history,
   Delhi, the present-day national capital, remains one of the wealthiest cities
   in India. The region is the second-largest urban area in the world, and is
   booming with businesses. Delhi is known for its various businesses, of which
