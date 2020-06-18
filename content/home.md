@@ -10,7 +10,7 @@ meta_author: home_page
 locality_type: Home-Page
 categories: Product Listing
 title: index
-heading_one: "Gold loan index dbckdjksc"
+heading_one: "Gold loan home"
 heading_two: with
 heading_three: Rupeek
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
