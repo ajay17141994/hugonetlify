@@ -1,0 +1,20 @@
+---
+layout: post
+titleTag: testing one more
+postType: sublocality
+cononical: testing one more
+meta_description: testing one more
+meta_title: testing one more
+meta_keywords: testing one more
+meta_author: testing one more
+locality_type: City
+categories: Product Listing
+home_pageHeading: testing one more
+title: testing one more
+heading_one: testing one more
+heading_two: with
+heading_three: Rupeek
+sub_locality: testing one more
+sub_footerData: testing one more
+---
+testing one more
