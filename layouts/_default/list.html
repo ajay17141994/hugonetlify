@@ -15,9 +15,8 @@
             </div>
                 <div class="list">
                     <div class="listpost_wrapper" id="listpost_wrapper">
-                        {{ range .Pages }}
-                            {{ if .Params.ParentCity }}
-                            {{ else }}
+                        {{ range .Site.Pages }}
+                            {{ if not (.Params.ParentCity) }}
                             <div class="posts">                    
                                 <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.home_pageHeading }} </a>
                                 <!-- <div class="locality_description">{{ .Description }}</div> -->

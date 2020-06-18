@@ -75,7 +75,7 @@ collections:
         widget: "markdown"
   - label: "City Product Listing"
     name: "city_product"
-    folder: "content"
+    folder: "content/city"
     create: true
     slug: "{{slug}}"
     fields:
@@ -143,7 +143,7 @@ collections:
         widget: "markdown"
   - label: "Sub Locality product listing"
     name: "sub_localityProduct"
-    folder: "content"
+    folder: "content/subLocality"
     create: true
     slug: "{{slug}}"
     fields:

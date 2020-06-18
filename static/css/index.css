@@ -65,7 +65,7 @@ input[type=number] {-moz-appearance: textfield;}
 
 /* LISR PAGE CSS GOES HERE... */
 .listpost_wrapper {display: flex;justify-content: left;flex-wrap: wrap;align-items: center;}
-.posts { width: 30%;text-align: left;height: 70px;color: #484848;font-size: 16px;padding: 20px;margin: 0px;text-transform: uppercase;}
+.posts { max-width: 30%;text-align: left;height: 70px;color: #484848;font-size: 16px;padding: 20px;margin: 0px;text-transform: uppercase;}
 .posts a{color:#484848;text-decoration: none;font-size: 18px;font-weight: 700;}
 .locality_description{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 10px 0;}
 /* LIST PAGE CSS ENDS HERE>>> */
