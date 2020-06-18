@@ -27,8 +27,8 @@ sub_footerData: >-
   in India. The region is the second-largest urban area in the world, and is
   booming with businesses. Delhi is known for its various businesses, of which
   many have carried on through generations of families. Industries such as
-  retail, manufacturing, IT, telecommunications, media, and more, fuel the
-  city’s economy. The city powers several factories across the region as
+  retail, manufacturing, IT, telecommunications, media, and more, fuel th city’s
+  economy. The city powers several factories across the region as
   well.**Commercial loans** and **quick business loans** have made funding and
   growth of commercial activities easier. **A gold loan in Delhi** is one of the
   best ways to develop a business because of how affordable and convenient the
