@@ -19,7 +19,7 @@
                             {{ if .Params.ParentCity }}
                             {{ else }}
                             <div class="posts">                    
-                                <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Title }} </a>
+                                <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.home_pageHeading }} </a>
                                 <!-- <div class="locality_description">{{ .Description }}</div> -->
                             </div>
                             {{ end }}
