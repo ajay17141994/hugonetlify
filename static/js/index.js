@@ -1,5 +1,6 @@
 // GETTING LOCALITY LIST ON PAGE LOAD (IIFE FUNCTION)
 (function fetchLocality(){
+    console.log("fetchLocality")
     let sublocalities=document.getElementById("localities").innerText.split(/[,\-_]/)
     let postType=document.getElementById("postType").innerText
     for (i=0;i<sublocalities.length;i++)
@@ -7,7 +8,7 @@
         let localityData=sublocalities[i].trim();
         localityData=(localityData.replace(/ /g, "-")).toLowerCase()
         if(document.getElementById("localityname_desktop") !== null ){
-            document.getElementById("localityname_desktop").innerHTML += "<a class='locality_name' href=/"+postType+"/"+localityData+"><div>"+sublocalities[i]+"</div></a>"
+            document.getElementById("localityname_desktop").innerHTML += "<a class='locality_name' href=/"+localityData+"><div>"+sublocalities[i]+"</div></a>"
         }
     }
     let div = document.getElementById("localities_select");
@@ -20,6 +21,7 @@
     {
         let localityData=(postElement[i].category).trim();
         let categoryURL=(postElement[i].href);
+        console.log("categoryURL", categoryURL);
         localityData=(localityData.replace(/ /g, "-")).toLowerCase()
         document.getElementById("localities_select").innerHTML += "<li class='customselect_li localities_option'><a class='locality_name' href="+categoryURL+">"+localityData+"</a></li>"
     };
@@ -57,7 +59,7 @@ function toggleSelectoptions(id) {
     {
         let localityData=sublocalities[i].trim();
         localityData=(localityData.replace(/ /g, "-")).toLowerCase()
-        document.getElementById("localities_select").innerHTML += "<li class='customselect_li localities_option'><a class='locality_name' href=/"+postType+"/"+localityData+">"+sublocalities[i]+"</a></li>"
+        document.getElementById("localities_select").innerHTML += "<li class='customselect_li localities_option'><a class='locality_name' href=/"+localityData+">"+sublocalities[i]+"</a></li>"
     };
     div.style.display = div.style.display == "block" ? "none" : "block";
 }
