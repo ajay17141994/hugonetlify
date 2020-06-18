@@ -1,6 +1,36 @@
 {{ define "getin_touch" }}
 <div class="subWrapper">
-    {{ partial "getintouch_section" .}}
+    <div class="subWrapper">
+        <div class="getintouch_wrapper" id="getintouch_wrapper">
+            <div class="getintouch_heading">
+                <h1>Get in touch</h1>
+            </div>
+            <div class="getintouch_subheading">
+                {{ if .Params.Country }}
+                    <h3>We are available in 20+ cities in <span class="getintouch_city">{{ .Params.Country }}</span></h3>
+                {{ else if .Params.ParentCity}}
+                    <h3>We are available in 40+ areas in <span class="getintouch_city">{{ .Params.ParentCity }}</span></h3>
+                {{ else }}
+                    <h3>We are available in 40+ areas in <span class="getintouch_city">{{ .Params.Title }}</span></h3>
+                {{ end }}
+            </div>
+                <div class="list">
+                    <div class="listpost_wrapper" id="listpost_wrapper">
+                        {{ range .Site.Pages }}
+                            {{ if .Params.ParentCity }}
+                            <div class="posts">                    
+                                <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.Home_pageHeading }} </a>
+                                <!-- <div class="locality_description">{{ .Description }}</div> -->
+                            </div>
+                            {{ else }}
+                            {{ end }}
+                        {{ end }}
+                    </div>     
+                </div>
+            </div>
+        <!-- {{ partial "getintouch_section" .}} -->
+    </div> 
+    <!-- {{ partial "getintouch_section" .}} -->
 </div>
 {{ end }}
 
