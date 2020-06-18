@@ -6,7 +6,7 @@ meta_description: GOLD LOAN IN SILK BOARD
 meta_title: GOLD LOAN IN SILK BOARD
 meta_keywords: GOLD LOAN IN SILK BOARD
 meta_author: GOLD LOAN IN SILK BOARD
-parentCity: GOLD LOAN IN SILK BOARD
+parentCity: BANGALORE
 locality_type: City
 categories: Product Listing
 home_pageHeading: SILK BOARD
