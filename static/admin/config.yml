@@ -3,8 +3,7 @@ backend:
   repo: ajay17141994/hugonetlify   # Path to your GitHub repository
 
 media_folder: "images/uploads"
-permalinks:
-        city: /:title
+
 
 collections:
   - label: "Home Page"

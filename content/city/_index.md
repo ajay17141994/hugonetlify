@@ -7,7 +7,7 @@ meta_keywords: DELHI, RUPEEK.COM, RUPEEK GOLD LOAN, GOLD LOAN, LOAN
 meta_author: RUPEEK.COM
 locality_type: City
 categories: Product Listing
-title: DELHI
+title: city
 home_pageHeading: GOLD LOAN IN DELHI
 heading_one: Gold Loan for cities
 heading_two: with
