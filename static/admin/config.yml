@@ -3,6 +3,8 @@ backend:
   repo: ajay17141994/hugonetlify   # Path to your GitHub repository
 
 media_folder: "images/uploads"
+permalinks:
+        city: /:title
 
 collections:
   - label: "Home Page"
@@ -69,7 +71,7 @@ collections:
         widget: "markdown"
       - label: "Gold loan based city Bottom paragraph (Required)"
         name: "sub_footerData"
-        widget: "string"
+        widget: "markdown"
   - label: "City Product Listing"
     name: "city_product"
     folder: "content/city"
