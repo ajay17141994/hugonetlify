@@ -1,4 +1,6 @@
 {{ define "getin_touch" }}
+{{ $currentCity := .Params.home_pageHeading }} 
+{{ $city := .Params.parentCity }} 
 <div class="subWrapper">
     <div class="subWrapper">
         <div class="getintouch_wrapper" id="getintouch_wrapper">
@@ -15,14 +17,23 @@
                 {{ end }}
             </div>
                 <div class="list">
+                    
                     <div class="listpost_wrapper" id="listpost_wrapper">
                         {{ range .Site.Pages }}
                             {{ if .Params.ParentCity }}
-                            <div class="posts">                    
-                                <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.Home_pageHeading }} </a>
-                                <!-- <div class="locality_description">{{ .Description }}</div> -->
-                            </div>
-                            {{ else }}
+                                {{ if eq (.Params.ParentCity) ($currentCity) }}
+                                <div class="posts">      
+                                    <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.Home_pageHeading }} </a>
+                                    <!-- <div class="locality_description">{{ .Description }}</div> -->
+                                </div>
+                                {{ else if eq (.Params.ParentCity) ($city) }}
+                                <div class="posts">          
+                                    <a class="indivisualPost_href" href="{{ .URL }}"> {{ .Params.Home_pageHeading }} </a>
+                                    <!-- <div class="locality_description">{{ .Description }}</div> -->
+                                </div>
+                                {{ else }}
+                                {{ end }}
+                                {{ else }}
                             {{ end }}
                         {{ end }}
                     </div>     

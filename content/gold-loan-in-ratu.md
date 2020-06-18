@@ -7,7 +7,7 @@ meta_description: gold loan in ratu
 meta_title: gold loan in ratu
 meta_keywords: gold loan in ratu
 meta_author: gold loan in ratu
-parentCity: gold loan in ratu
+parentCity: Ranchi
 locality_type: Sub-Locality
 categories: Product Listing
 home_pageHeading: Ratu

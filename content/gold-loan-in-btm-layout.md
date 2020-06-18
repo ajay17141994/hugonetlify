@@ -7,7 +7,7 @@ meta_description: GOLD LOAN IN BTM LAYOUT
 meta_title: GOLD LOAN IN BTM LAYOUT
 meta_keywords: GOLD LOAN IN BTM LAYOUT
 meta_author: GOLD LOAN IN BTM LAYOUT
-parentCity: BTM LAYOUT
+parentCity: BANGALORE
 locality_type: Sub-Locality
 categories: Product Listing
 home_pageHeading: btm layout
