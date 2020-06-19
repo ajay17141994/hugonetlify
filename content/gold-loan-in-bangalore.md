@@ -1,28 +1,22 @@
 ---
 layout: post
-titleTag: GOLD LOAN IN BANGALORE
+titleTag: Gold loans in bangalore
 postType: sublocality
-cononical: GOLD LOAN IN BANGALORE
-meta_description: GOLD LOAN IN BANGALORE
-meta_title: GOLD LOAN IN BANGALORE
-meta_keywords: GOLD LOAN IN BANGALORE
-meta_author: GOLD LOAN IN BANGALORE
+cononical: ""
+meta_description: "At Rupeek, we offer a wide range of gold loan schemes with low-interest rates.
+Avail a gold loan in bangalore with Rupeek’s doorstep services, or visit a Rupeek branch nearby to learn more."
+meta_title: Gold loans in bangalore
+meta_keywords: best gold loan bank in bangalore, gold loan near me, gold loan, best gold loan
+meta_author: ""
 locality_type: City
 categories: Product Listing
-home_pageHeading: BANGALORE
-title: GOLD LOAN IN BANGALORE
-heading_one: GOLD LOAN IN BANGALORE
+home_pageHeading: Bangalore
+title: Bangalore
+heading_one: Gold loans in Bangalore
 heading_two: with
 heading_three: Rupeek
-sub_locality: HSR LAYOUT, BTM LAYOUT
-sub_footerData: "**Lorem Ipsum**is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book. It has survived not only five
-  centuries, but also the leap into electronic typesetting, remaining
-  essentially unchanged. It was popularised in the 1960s with the release of
-  Letraset sheets containing Lorem Ipsum passages, and more recently with
-  desktop publishing software like Aldus PageMaker including versions of Lorem
-  Ipsum."
+sub_locality: HSR Layout, BTM Layout
+sub_footerData: ""
 ---
-**Lorem Ipsum**is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Bangalore is known as the Silicon Valley of India. The city is recognized as the startup hub and IT capital of the country as well, offering many opportunities to companies across sectors
+

@@ -31,7 +31,8 @@ input[type=number] {-moz-appearance: textfield;}
 #desktopinfo_popup{display: none;}
 #desktoperrorinfo_popup{display: none;}
 #localities_bottomsection{display: block;}
-
+.indivisualPost_href{text-transform: capitalize;}
+.header_list ul li{line-height: 2;}
 
 /* country code css goes here */
 .inputbox{position: relative; width: 75%; display: block;margin: 0 auto;}
@@ -222,7 +223,7 @@ input[type=number] {-moz-appearance: textfield;}
 .getintouch_subheading p{margin:0px 0px;padding: 0px 0px 40px 0px;}
 .localityname_section{display: flex;justify-content: space-around;align-items: center;flex-wrap: wrap;}
 .locality_name{width:30%;padding: 10px;margin-bottom:15px;font-size: 14px;font-weight: 700;text-decoration: none;color:#484848}
-.getintouch_city{text-transform: lowercase}
+.getintouch_city{text-transform: capitalize}
 .getintouch_city::first-letter{ text-transform: uppercase;}
 /* GET IN TOUCH SECTION ENDS HERE>>>>>>>>>> */
 .subWrapper{padding:15px 0}
